@@ -7,7 +7,7 @@ LABEL version="0.0.1"
 
 RUN set -xe apt-get update && \
             apt-get upgrade -yq &&\
-			      apt-get install -y --no-install-recommends \
+	    apt-get install -y --no-install-recommends \
 			curl \
 			wget \
 			mysql-client \
