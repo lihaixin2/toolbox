@@ -22,7 +22,8 @@ RUN apt-get update && \
     apt-get install -y nano \
 	               openssh-client \
 		       strace \
-		       tcpdump && \
+		       tcpdump \
+		       iftop && \
     apt-get clean all && rm -rf /var/lib/apt/lists/* 
 
 WORKDIR /bin
