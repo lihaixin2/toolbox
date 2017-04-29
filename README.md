@@ -2,4 +2,4 @@
 
 A ubuntu based Toolset for Docker.
 
-    docker run -it d --name toolbox lihaixin/toolbox
+    docker run -it -d --name toolbox lihaixin/toolbox
